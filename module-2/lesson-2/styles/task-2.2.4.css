@@ -1,3 +1,20 @@
 /* Your code goes below here */
 
+p em {
+    font-size: 28px;
+}
+
+p strong {
+    font-size: 32px;
+}
+
+ul {
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+strong {color: darkgoldenrod;}
+ul strong {color: red;}
+
+
 /* Your code goes above here */
