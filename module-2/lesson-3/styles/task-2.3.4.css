@@ -1,0 +1,32 @@
+
+body{
+    background-color: darkgrey;
+}
+
+
+header{
+    background-color: blue;
+    padding: 20px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 10px;
+}
+main{
+    background-color: yellow;
+    color: red;
+    padding: 40px;
+    border: 5px dashed;
+    border-radius: 20px;
+    margin: 40px;
+}
+footer{
+    background-color: darkgreen;
+    color: wheat;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px;
+    width: 75%;
+    margin-left: 90px;
+    opacity: 80%;
+}
+
