@@ -1,0 +1,16 @@
+
+div.wrapper{
+    height:300px;
+    width:300px;
+    background-color: gray;
+}
+
+div.relative{
+    position: relative;
+    top:100px;
+     left:100px;
+    height:300px;
+    border:300px;
+}
+
+
