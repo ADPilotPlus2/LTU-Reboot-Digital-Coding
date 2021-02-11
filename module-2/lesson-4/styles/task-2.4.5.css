@@ -3,6 +3,7 @@ main img{
     max-width: 200px;
     margin: 30px;
     margin-left:0px;
+    float: left;
 } 
 .logo{
     float:left;
@@ -13,6 +14,8 @@ main img{
 }
 nav{
     float: right;
+    border: dashed tomato;
+    border-width: 5px;
 }
 .clearfix{
     clear: both;
@@ -21,18 +24,25 @@ nav ul li{
     display: inline-block;
     padding: 15px 10px
 }
+ 
 main{
     float:left;
-    width: calc(66.6666%-60px);
+    width: calc(66%-100px);
     padding: 30px;
+    color: blue;
+    border: solid red;
+    border-width: 5px;
 }
 
 aside{
     float: right;
-    width: calc(33.3333%-60px);
+    width: calc(33%-100px);
     padding: 30px;
+    border: dashed blueviolet;
+    border-width: 5px;
 }
 
 footer{
     text-align: center;
+    background-color: rgb(112, 144, 131);
 }
