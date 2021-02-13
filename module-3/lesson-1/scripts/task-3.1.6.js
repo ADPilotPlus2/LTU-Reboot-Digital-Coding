@@ -8,4 +8,6 @@ var totalBill=preTipTotal*(1+tipPercentage);
 var tip= preTipTotal*tipPercentage;
 document.write("Your total bill, with tip, is £" + totalBill.toFixed(2) + " , the tip being £" + tip.toFixed(2));
 
-
+document.getElementById("bill").innerHTML=preTipTotal.toFixed(2)
+document.getElementById("tip").innerHTML=tip.toFixed(2)
+document.getElementById("total").innerHTML=totalBill.toFixed(2)

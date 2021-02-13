@@ -1,0 +1,81 @@
+body{
+    background-color: cornflowerblue;
+    z-index: -1;
+}
+.image{
+    height: 300px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    position: fixed; 
+    left: 25%; 
+    bottom: 5%; 
+
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    justify-content: space-between;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    justify-content: space-between;
+    padding-left: 23%;
+padding-right: 23%;
+    }
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    justify-content: space-between;
+    padding-left: 23%;
+    padding-right: 23%;
+    }
+#bill{
+    
+    color: cornsilk;
+}
+#tip{
+    
+    color: cornsilk;
+}
+#total{
+    
+    color: cornsilk;
+}
+header{
+    background-color: khaki;
+    z-index: 1;
+    height: 100px;
+
+}
+.logo{
+    font-family: fantasy;
+    color: lightcoral;
+    float:left;
+    margin-left: 15px;
+}
+.buttons{
+    float: right;
+    color: lightcoral;
+    margin-right: 15px;
+}
+footer {
+    position: fixed;
+    left: 25%;
+    bottom: 0;
+    
+    width: 50%;
+    background-color: khaki;
+    color: lightcoral;
+    text-align: center;
+    border: 10px;
+    border-color: cornflowerblue;
+  }
