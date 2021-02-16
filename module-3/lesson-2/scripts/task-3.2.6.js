@@ -1,4 +1,5 @@
-var temperature = 12;
+
+var temperature = Math.floor(math.random() *23);
 var location = "home";
 
 if (temperature <0 && location === "home") {
@@ -6,4 +7,5 @@ if (temperature <0 && location === "home") {
 }else if (temperature <15){
     console.log("Wear a coat and hat");
 }
+
 
