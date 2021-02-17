@@ -1,11 +1,16 @@
 
-var temperature = Math.floor(math.random() *23);
-var location = "home";
+var temperature = Math.floor(Math.random() *23);
+var myLocation = "work";
 
-if (temperature <0 && location === "home") {
-    console.log("Stay inside");
+console.log("Today it is "+temperature+" degrees outside")
+if (temperature <2 && myLocation === "home") {
+    console.log("Stay at home");
 }else if (temperature <15){
     console.log("Wear a coat and hat");
+}else if (temperature<20) {
+    console.log("Just a jumper needed!");
+}else{
+    console.log("T-shirt and shorts weather");
 }
 
 
