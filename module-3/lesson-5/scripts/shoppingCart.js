@@ -1,3 +1,6 @@
+
+console.log("Hello 3.5.1");
+
 let shoppingCart = [
   {
     name:"loaf of bread",
@@ -59,3 +62,4 @@ let shoppingCart = [
   quantity:3,
   price:.4
 }];
+
